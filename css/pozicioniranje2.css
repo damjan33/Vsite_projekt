@@ -1,0 +1,77 @@
+#primjer {
+
+}
+
+#primjer div {
+
+}
+
+#div-prije, #div-poslije {
+	background-color:#8888dd;
+	color:#000000;
+	
+}
+
+#div-1 {
+	background-color:#000000;
+	color:#ffffff;
+}
+
+#div-1 {
+	
+	
+}
+
+#div-1a {
+	background-color:#dd3333;
+	color:#fff;
+	float: left;
+	width: 150px;
+
+}
+
+#div-1b {
+	background-color:#33dd33;
+	color:#fff;
+	float: left;
+	width: 250px;
+}
+
+#div-1c {
+	background-color:#3333dd;
+	color:#ffffff;
+	float:left;
+	width: 350px;
+}
+
+#primjer div p {
+	margin:0 .25em;
+	padding:.25em 0;
+	
+}
+
+#description {
+}
+
+pre {
+	padding:1em;
+	border:1px dashed #aaa;
+	background:#fafafa;
+}
+
+p {
+	margin:0.5em 0;
+}
+
+h3 {
+	color:#999999;
+}
+
+.pocisti:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+
+}

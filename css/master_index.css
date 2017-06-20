@@ -1,0 +1,93 @@
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+body{
+	background-color: #dfdfdf;
+	font-family: arial;
+}
+
+a{
+	text-decoration: none;
+	color: #194A72;
+}
+.news{
+	margin-top:15px;
+}
+
+.news .left{
+	width:325px;
+	background-color:#222222;
+	color:#ffffff;
+}
+.news.right{
+	width:315px;
+}
+
+.left{float:left;}
+.right{float:right;}
+
+.content{
+	width: 990px;
+	margin:0 auto;
+}
+#content{}
+
+#content_first{
+	width: 690px;
+}
+
+#content_second{
+	width: 300px;
+}
+
+#logo_nav{
+	background-color: #000000;
+	height: 53px;
+}
+
+#logo_nav ul{
+	background-color: #E00605;
+	margin: 27px 0 0 0;
+	width: 468px;
+}
+
+#logo_nav ul li{
+	display:inline;
+}
+
+#logo_nav ul li a{
+	color: #ffffff;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 5px 5px 0;
+}
+
+h1 a{
+	color:#ffffff;
+	font-size:20px;
+	margin: 15px 20px 10px 5px
+}
+
+.news_p{
+	font-size:12px;
+	margin:15px 0 15px 0;
+}
+.news.left>div{
+	padding:15px 20px 10px 10px;
+}
+
+
+/*
+Klasa za Čišćenje
+********************/
+
+
+.pocisti:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+
+}

@@ -1,0 +1,55 @@
+#primjer {
+
+}
+
+#primjer div {
+
+}
+
+#div- zaglavlje, #div-footer {
+	background-color:#8888dd;
+	color:#000000;
+}
+
+#div- linkovi{
+	background-color:#00FF00;
+	
+}
+
+#div- glavni {
+	
+}
+
+#div- lista {
+	background-color:#dd3333;
+	
+}
+
+#div- slike galerija {
+	
+	
+}
+
+#div paragrafi{
+	
+}
+
+#primjer div p {
+	margin:0 .25em;
+	padding:.25em 0;
+}
+
+#description {
+}
+
+pre {
+	padding:1em;
+	border:1px dashed #aaa;
+	background:#fafafa;
+}
+
+p {
+	margin:0.5em 0;
+}
+
+

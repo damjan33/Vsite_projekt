@@ -1,0 +1,271 @@
+﻿<!doctype html>
+<html>
+<head>
+</head>
+	<title>Galerija slika</title>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="css/modal galerija.css">
+	
+	
+	
+</head>
+<body class="pocisti">
+
+<div id="container" class="pocisti">
+
+	
+	<div id="header" class="pocisti">
+		
+		<div id="logo" class="pocisti">
+			<a href="http://dalmatika.hr/" >
+				<img src="images/DALMATIKA_logo-1.png" title="Click here to return to The Home homepage" />
+			</a>
+		</div>
+		
+		
+		<div id="nav" class="pocisti">
+			<ul class="pocisti left">
+			
+				<li class="pocisti">
+					<a href="http://dalmatika.hr/?page_id=5" target="_blank">Građevina i ekologija</a>
+				</li>
+				
+				<li class="pocisti">
+					<a href="http://dalmatika.hr/?page_id=9" target="_blank">Istraživanje tržišta</a>
+				</li>
+				
+				<li class="pocisti">
+					<a href="http://dalmatika.hr/?page_id=7" target="_blank">Informatika</a>
+				</li>
+				
+				<li class="pocisti">
+					<a href="http://dalmatika.hr/?page_id=11" target="_blank">Yachtcharter</a>
+				</li>
+				
+				
+			</ul>
+		</div>
+		
+		
+		
+	</div>
+	<div id="galerija">
+		<div id="image_box">
+			<div class="row">
+				<div class="slika" class="column"><img src="images/Fadeaway1pinup.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/Fadeaway2pinup.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/Fadeaway3pinup.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/Fadeaway4pinup.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/Fadeaway5pinup.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow"></div>
+			
+				<div class="slika" class="column"><img src="images/iva01pinup.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/iva02pinup.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/iva03pinup.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/iva04pinup.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/iva05pinup.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow"></div>
+			
+				<div class="slika" class="column"><img src="images/iva06pinup.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/iva07pinup.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/iva08pinup.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/iva09pinup.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow"></div>
+				<div class="slika" class="column"><img src="images/iva10pinup.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow"></div>
+			</div>	
+		</div>
+		<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 15</div>
+        <img src="images/Fadeaway1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+		<div class="numbertext">2 / 15</div>
+        <img src="images/Fadeaway2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+		<div class="numbertext">3 / 15</div>
+        <img src="images/Fadeaway3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+		<div class="numbertext">4 / 15</div>
+        <img src="images/Fadeaway4.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">5 / 15</div>
+        <img src="images/Fadeaway5.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">6 / 15</div>
+        <img src="images/iva01.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">7 / 15</div>
+        <img src="images/iva02.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">8 / 15</div>
+        <img src="images/iva03.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">9 / 15</div>
+        <img src="images/iva04.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">10 / 15</div>
+        <img src="images/iva05.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">11 / 15</div>
+        <img src="images/iva06.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">12 / 15</div>
+        <img src="images/iva07.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">13 / 15</div>
+        <img src="images/iva08.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">14 / 15</div>
+        <img src="images/iva09.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+		<div class="numbertext">15 / 15</div>
+        <img src="images/iva10.jpg" style="width:100%">
+    </div>
+	
+	
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Fadeaway1pinup.jpg.jpg" onclick="currentSlide(1)" alt="Fadeaway">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Fadeaway2pinup.jpg.jpg" onclick="currentSlide(2)" alt="Fadeaway">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Fadeaway3pinup.jpg.jpg" onclick="currentSlide(3)" alt="Fadeaway">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Fadeaway4pinup.jpg.jpg" onclick="currentSlide(4)" alt="Fadeaway">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/Fadeaway5pinup.jpg.jpg" onclick="currentSlide(5)" alt="Fadeaway">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva01pinup.jpg.jpg" onclick="currentSlide(6)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva02pinup.jpg.jpg" onclick="currentSlide(7)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva03pinup.jpg.jpg" onclick="currentSlide(8)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva04pinup.jpg.jpg" onclick="currentSlide(9)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva05pinup.jpg.jpg" onclick="currentSlide(10)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva06pinup.jpg.jpg" onclick="currentSlide(11)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva07pinup.jpg.jpg" onclick="currentSlide(12)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva08pinup.jpg.jpg" onclick="currentSlide(13)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva09pinup.jpg.jpg" onclick="currentSlide(14)" alt="Iva01">
+    </div>
+	<div class="column">
+      <img class="demo" src="images/iva10pinup.jpg.jpg" onclick="currentSlide(15)" alt="Iva01">
+    </div>
+	
+  </div>
+</div>
+	</div>
+	<div id="footer" class="pocisti left">
+	
+		<div id="footer_logo" class="left pocisti"><h1><p>DALMATIKA D.O.O.</p></h1></div>
+		<div id="footer_middle" class="left pocisti">
+			<p>Domjanićeva 9</p>
+			<p>10 000 Zagreb</p>
+			<p>+385 1 4664 535</p>
+			<p><a href="mailto:info@dalmatika.hr" target="_blank">info@dalmatika.hr</a></p>
+		</div>
+		<div id="footer_right" class="left pocisti">
+			<ul>			
+				<li><p><a href="http://dalmatika.hr/?page_id=38" target="_blank">O nama</a></p></li>
+				<li><p><a href="http://dalmatika.hr/?page_id=42" target="_blank">Lokacija</a></p></li>
+				<li><p><a href="http://dalmatika.hr/?page_id=40" target="_blank">Kontakt</a></p></li>
+			</ul>
+		</div>
+        
+   
+	</div>
+	
+
+	
+
+</div>
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	
+	
+</body>
+</html>
